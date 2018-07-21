@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+express-generator
+build
+financial-data
+npm-debug.log
+react-1
+react-client/src/*.css
+ignore
+backups

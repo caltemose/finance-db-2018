@@ -1,0 +1,19 @@
+{
+  "name": "finances-db-converter",
+  "version": "1.0.0",
+  "description": "Conversion utilities for importing bank data into mongo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Chad L. Altemose",
+  "license": "ISC",
+  "devDependencies": {
+    "args": "^3.0.2",
+    "bluebird": "^3.5.0",
+    "line-reader": "^0.4.0",
+    "load-json-file": "^2.0.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.12"
+  }
+}

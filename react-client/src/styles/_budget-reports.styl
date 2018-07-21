@@ -1,0 +1,108 @@
+$red = #c41728
+$green = #467f23
+
+.over-budget
+    color: $red
+
+.under-budget
+    color: $green
+
+.budget-reports
+    list-style: none
+    margin: 0 0 2em
+    padding: 0
+    display: flex
+    flex-wrap: nowrap
+    // overflow-x: auto
+    // align-items: flex-start
+
+.budget-month
+    flex: 0 0 auto
+    margin-right: 2em
+
+
+
+.budget-month-categories
+    list-style: none
+    margin: 0
+    padding: 0
+
+    li
+        margin: 0
+
+    li.budget-header
+        span
+            background: #eee
+
+    li span
+        display: inline-block
+        margin: 0
+        padding: 0.4em
+        border: 1px solid #888
+
+        &.budget-month-category-name
+            width: 16em
+
+        &.budget-month-category-total
+            width: 7em
+            text-align: right
+
+        &.budget-month-category-limit
+            width: 7em
+            text-align: right
+        
+        &.budget-month-category-diff
+            width: 7em
+            text-align: right
+
+    li.budget-footer
+        margin: 1em 0 2em
+
+        h4
+            display: inline-block
+            width: 15em
+            margin: 0
+            padding: 0
+
+        span
+            width: 15em
+            text-align: right
+            padding: 0
+            border: none
+
+            &.total-expenses
+                color: $red
+
+.transactions-unknown-categories,
+.transactions-not-in-budget
+    font-size: 0.8em
+
+    h3
+        margin-bottom: 0.25em
+
+    ul
+        list-style: none
+        margin: 0
+        padding: 0
+
+        li
+            margin: 0 0 0.25em
+            padding: 0
+            &:nth-child(even)
+                background: #ddd
+
+    span
+        border: 0 !important
+
+    .item-amount
+        width: 5em
+        text-align: right
+    
+    .item-payee
+        width: 16em
+    
+    .item-description
+        width: 16em
+    
+    .item-category
+        width: 10em
